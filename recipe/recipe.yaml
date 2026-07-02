@@ -3,7 +3,7 @@ schema_version: 1
 
 context:
   name: universal-mcp
-  version: "0.1.23"
+  version: "0.1.25"
   python_min: '3.11'
 
 package:
@@ -12,7 +12,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/universal_mcp-${{ version }}.tar.gz
-  sha256: 57d1a86e5e51777d237842c0199686dedf55e53df32ff6d822a334ad9ca930c9
+  sha256: 1fd51e5221cb51e2791c13fb56431551542e0c86af2be7326fb78452c4c6037e
 
 build:
   number: 0
